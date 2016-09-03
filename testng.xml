@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="grid1">
+  <test name="On firefox">
+  <parameter name=:Browser" value="firefox"> </parameter>
+    <classes>
+      <class name="com.ERP.master.hub"/>
+    </classes>
+  </test> <!-- Testrr -->
+</suite> <!-- Suite11 -->
